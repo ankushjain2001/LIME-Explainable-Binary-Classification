@@ -1,8 +1,11 @@
 # Explainable-Binary-Classification
 An explainable binary classification project to clean data, vectorize data, K-Fold cross validate and apply a model. The model is made explainable by using LIME Explainers.
+
 ### <a href='binary-classification-lime.ipynb'>Check the Notebook here...</a>
 
-### Techniques Used
+<hr/>
+
+## Techniques Used
 
 **Part A:**
 - Data formatting, schema validation, data merging, concatenation and key-column identification
@@ -28,7 +31,7 @@ An explainable binary classification project to clean data, vectorize data, K-Fo
 - Experiment 3 : Tf-Idf Weighted FastText Sentence Vectors + Classification
 
 
-### Conclusion
+## Conclusion
 #### Feature Selection
 - Since we have very less amount of data, we cannot apply a customized and trained Word2Vec implementation.
 - The dataset works the best with Tf-Idf vectorization.
